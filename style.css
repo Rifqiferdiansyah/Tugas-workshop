@@ -1,0 +1,205 @@
+
+
+*{
+    text-decoration: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0e3ee9;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .container .menu .logo {
+    position: fixed;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #333; /* Warna kuning saat hover */
+}
+
+
+
+
+
+.navdiv {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px; 
+    font-weight: 600;
+    color: white; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: black; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+button {
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 90px;
+}
+
+button a {
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header, footer {
+    background: #0d00c2;
+    color: #fff;
+    padding: 5%;
+    text-align: center;
+    font-family: "Fira Code";
+}
+
+header h1 {
+    font-size: 70px;
+    font-family: "Fira Code";
+    font-weight: 700;
+    font-style: normal;
+}
+
+header p {
+    font-size: 45px;
+    font-family: "Fira Code";
+    font-weight: 700;
+    font-style: normal;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+}
+
+.project a {
+    display: inline-block;
+    background: #0e3ee9;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background: #555;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+    background: #0e3ee9;
+}
+
+footer p {
+    margin: 0;
+}
